@@ -15,7 +15,7 @@ BlendFileAnalyzer is a security and code analysis tool for Blender `.blend` file
 - [Blender](https://www.blender.org/) (must be installed and accessible in your PATH or specified manually)
 - Python 3.11+
 - [virtualenv](https://virtualenv.pypa.io/)
-- (Optional) [LMStudio](https://lmstudio.ai/) for remote LLM analysis
+- [LMStudio](https://lmstudio.ai/) for LLM analysis
 
 ## Setup
 
