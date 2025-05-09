@@ -81,7 +81,7 @@ python main.py --filepath <path-to-blend-file> [--blender-exec <path-to-blender>
 ## Output
 
 - Extracted scripts are saved in the extracted_scripts/ directory.
-- HTML reports are generated as report__<blendfilename>.html.
+- HTML reports are generated as report__{blendfilename}.html.
 
 ## Project Structure
 
