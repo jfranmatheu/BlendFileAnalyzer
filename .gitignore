@@ -1,0 +1,10 @@
+extracted_scripts/
+.venv/
+.vscode/
+.git/
+malicious_blend_files/
+models/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
