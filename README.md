@@ -22,7 +22,7 @@ BlendFileAnalyzer is a security and code analysis tool for Blender `.blend` file
 ### 1. Clone the repository
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/jfranmatheu/BlendFileAnalyzer.git
 cd BlendFileAnalyzer
 ```
 
