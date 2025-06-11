@@ -361,6 +361,8 @@ def main(blend_filepath: str, blender_executable: str, lmstudio_api: str, lmstud
 
     # Report html filepath.
     report_filepath = str(pathlib.Path(scripts_dir_path).parent / f"report__{pathlib.Path(blend_filepath).stem}.html")
+    
+    blend_filename = os.path.basename(filepath)
 
     # If directory is empty, delete it.
     if not os.listdir(scripts_dir_path):
@@ -376,8 +378,6 @@ def main(blend_filepath: str, blender_executable: str, lmstudio_api: str, lmstud
 
     # Analyze the scripts.
     analysis_results = analyze_scripts(scripts_dir_path, lmstudio_api, lmstudio_model)
-    
-    blend_filename = os.path.basename(filepath)
 
     if not analysis_results:
         print("Script analysis did not produce any results (possibly due to model loading error or no .py files).")
